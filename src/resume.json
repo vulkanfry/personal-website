@@ -1,96 +1,87 @@
 {
   "basics": {
-    "name": "José Coelho",
-    "label": "DevOps Engineer",
-    "picture": "images/jcoelho.webp",
-    "x_pictureFallback": "images/jcoelho.jpg",
+    "name": "Vladimir Sidorenko",
+    "label": "Fullstack Developer",
+    "picture": "images/vulkanfry.jpg",
+    "x_pictureFallback": "images/vulkanfry.png",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 4 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "My path in IT takes 3 years, excluding higher education. I am currently working as a developer on React.js and Ruby on Rails. I am interested in service management, all kinds of automation, development of front-end, back-end and mobile applications",
     "location": {
-      "country": "Hungary",
-      "countryCode": "HU",
-      "region": "Budapest"
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "region": "Pavlodar"
     },
     "profiles": [
       {
-        "network": "DEV Community",
-        "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
+        "network": "HABR Career",
+        "username": "byjikah",
+        "url": "https://career.habr.com/byjikah",
         "x_icon":"fab fa-2x fa-dev"
       },
       {
         "network": "LinkedIn",
-        "username": "josecoelho93",
-        "url": "https://www.linkedin.com/in/josecoelho93",
+        "username": "vulkanfry",
+        "url": "https://www.linkedin.com/in/vulkanfry/",
         "x_icon": "fab fa-2x fa-linkedin"
       },
       {
         "network": "GitHub",
-        "username": "jcoelho93",
-        "url": "https://github.com/jcoelho93",
+        "username": "ByJIKaHkaz",
+        "url": "https://github.com/ByJIKaHkaz",
         "x_icon": "fab fa-2x fa-github"
       }
     ]
   },
   "work": [
     {
-      "company": "Bosch",
-      "position": "DevOps Engineer for automated driving",
-      "website": "https://www.bosch.hu",
-      "startDate": "2019-10-15",
+      "company": "Freelance",
+      "position": "Fullstack Developer",
+      "website": "",
+      "startDate": "2020-10-15",
       "endDate": "",
-      "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
+      "summary": "Creating custom applications.",
       "highlights": []
     },
     {
-      "company": "Asseco PST",
-      "position": "DevOps Engineer",
-      "website": "https://www.pst.asseco.com",
+      "company": "Lunatic Cat",
+      "position": "Fullstack Developer",
+      "website": "https://lunatic.cat/",
+      "startDate": "2018-09-01",
+      "endDate": "2020-10-07",
+      "summary": "Joined a distributed team. Among the project was veeqo app. In the company went from Junior to Middle Developer",
+      "highlights": []
+    },
+    {
+      "company": "Elecom",
+      "position": "Fullstack Developer",
+      "website": "",
       "startDate": "2018-04-01",
-      "endDate": "2019-08-30",
-      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
-      "highlights": []
-    },
-    {
-      "company": "Asseco PST",
-      "position": "Backend Developer",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2017-08-16",
-      "endDate": "",
-      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
-      "highlights": []
-    },
-    {
-      "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
-      "startDate": "2016-05-01",
-      "endDate": "",
-      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
-      "highlights": []
-    },
-    {
-      "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
-      "website": "https://www.eem.pt",
-      "startDate": "2015-03-01",
-      "endDate": "",
-      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "endDate": "2018-08-01",
+      "summary": "Started my first professional developer experience as a Fullstack Developer",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Madeira",
+      "institution": "Altai State University",
       "area": "Computer Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "startDate": "2014-09-01",
+      "endDate": "2018-06-07",
+      "alsoDesc": [
+        "While studying at the university, I also gained programming experience, but not commercial.",
+        "I also liked to attend hackathons, meetups, and conferences until went time for self-isolation."
+      ],
       "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
+        {"key": "Object Oriented Programming", "level": "Intermediate" },
+        {"key": "Database Management Systems", "level": "Intermediate" },
+        {"key": "Operating systems and computers architectures", "level": "Intermediate" },
+        {"key": "Requirements Engineering", "level": "Intermediate" },
+        {"key": "Operational calculus", "level": "Intermediate" },
+        {"key": "Microprocessor-Based Systems", "level": "Intermediate" },
+        {"key": "Engineering and Computer graphics", "level": "Intermediate" },
+        {"key": "Network technologies", "level": "Intermediate" },
+        {"key": "Probability theory", "level": "Intermediate" }
       ]
     }
   ],
@@ -127,7 +118,7 @@
     },
     {
       "name": "Infrastructure as Code",
-      "level": "Basic",
+      "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
@@ -142,7 +133,7 @@
     },
     {
       "name": "Git",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": ["Software Developer"]
     },
     {
@@ -164,26 +155,31 @@
       "name": "MongoDB",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent speaker"
+      "fluency": "Intermediate (B1)"
     },
     {
-      "language": "Portuguese",
+      "language": "Russian",
       "fluency": "Native speaker"
     }
   ],
   "interests": [
     {
-      "name": "Travel bug",
+      "name": "Lover of travel",
       "x_icon": "fa-globe-africa"
     },
     {
-      "name": "Dog lover",
-      "x_icon": "fa-dog"
+      "name": "Сat people",
+      "x_icon": "fa-cat"
     },
     {
       "name": "Foodie",
@@ -192,6 +188,10 @@
     {
       "name": "Live in the now",
       "x_icon": "fa-brain"
+    },
+    {
+      "name": "Read books",
+      "x_icon": "fa-book"
     }
   ]
 }

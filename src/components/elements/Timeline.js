@@ -2,6 +2,13 @@ import React from "react";
 import TimelineItem from "./TimelineItem";
 import Resume from "../../resume.json";
 
+const dateToString = (date) => {
+  return date.toLocaleString("en-UK", {
+    month: "long",
+    year: "numeric"
+  })
+}
+
 function Timeline() {
   return (
     <div className="timeline is-centered">
@@ -16,7 +23,7 @@ function Timeline() {
       </div>
       {Resume.work
         .map(item => {
-          return new Date(item.startDate).getFullYear();
+          return dateToString(new Date(item.startDate));
         })
         .map((year, i) => {
           let content = [];
@@ -27,16 +34,14 @@ function Timeline() {
           );
           content.push(
             Resume.work
-              .filter(work => new Date(work.startDate).getFullYear() === year)
+              .filter(work => dateToString(new Date(work.startDate)) === year)
               .map((item, j) => {
                 return (
                   <TimelineItem
                     key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
-                      month: "long",
-                      year: "numeric"
-                    })}
+                    date={dateToString((new Date(item.startDate)))}
                     company={item.company}
+                    website={item.website}
                     summary={item.summary}
                   />
                 );

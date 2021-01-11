@@ -10,9 +10,9 @@ function Hero() {
       </div>
       <div className="hero-body">
         <div className="container">
-          <p className="subtitle is-5 has-text-weight-light">I'm a</p>
-          <h1 className="title">{Resume.basics.label}</h1>
-          <h2 className="subtitle">
+          <p className="subtitle is-5 has-text-black has-text-weight-light">I'm a</p>
+          <h1 className="title has-text-black">{Resume.basics.label}</h1>
+          <h2 className="subtitle has-text-black">
             {Resume.basics.location.region}, {Resume.basics.location.country}
           </h2>
         </div>

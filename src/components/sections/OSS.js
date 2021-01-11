@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Article from "../elements/Article";
 
-class Articles extends Component {
+class OSS extends Component {
   constructor(props) {
     super();
     this.state = { articles: [] };
   }
 
   componentDidMount() {
-    const devTo = "https://dev.to/api/articles?username=jcoelho";
+    const devTo = "https://api.github.com/users/ByJIKaHkaz/repos";
 
     fetch(devTo)
       .then(response => {
@@ -22,9 +22,9 @@ class Articles extends Component {
             <div className="column" key={index}>
               <Article
                 key={index}
-                title={element.title}
-                url={element.url}
-                image={element.cover_image}
+                title={element.full_name}
+                url={element.html_url}
+                license={element.license}
                 extract={element.description}
               />
             </div>
@@ -40,10 +40,10 @@ class Articles extends Component {
 
   render() {
     return (
-      <section className="section" id="articles">
+      <section className="section" id="oss">
         <div className="container">
-          <h1 className="title">Articles</h1>
-          <h2 className="subtitle is-4">My latest articles</h2>
+          <h1 className="title">OSS</h1>
+          <h2 className="subtitle is-4">My latest OSS</h2>
           <div className="columns">{this.state.articles}</div>
         </div>
       </section>
@@ -51,4 +51,4 @@ class Articles extends Component {
   }
 }
 
-export default Articles;
+export default OSS;

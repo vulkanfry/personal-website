@@ -11,25 +11,27 @@ function Article(props) {
           href={props.url}
           target="blank"
           className="card-header-icon"
-          aria-label="Dev Community"
+          aria-label="GitHub"
         >
           <span className="icon">
-            <i className="fab fa-2x fa-dev"></i>
+            <i className="fab fa-2x fa-github"></i>
           </span>
         </a>
       </div>
-      <div className="card-image">
-        <figure className="image">
-          <img width="1000" height="420" src={props.image} alt="" />
-        </figure>
-      </div>
       <div className="card-content">
-        <h1 className="heading">DEV.TO</h1>
+        <div className="tags has-addons">
+          <span className="tag is-link">GitHub</span><span className="tag"><span className="icon has-text-success"><i className="fab fa-github"></i></span></span>
+        </div>
+        {props.license ? <div className="tags has-addons">
+          <span className="tag is-link">{(props.license || {}).name}</span><span className="tag"><span className="icon has-text-success"><i className="fab fa-mit"></i></span></span>
+        </div>
+          : null
+        }
         <div className="content">
           <p>{props.extract}</p>
         </div>
         <a href={props.url} target="blank">
-          Read the full article
+          Open
         </a>
       </div>
     </div>
