@@ -88,22 +88,22 @@
   "skills": [
     {
       "name": "Jenkins",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
       "name": "Continuous Integration",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
       "name": "Scripting",
-      "level": "Advanced",
+      "level": "Basic",
       "keywords": ["DevOps"]
     },
     {
       "name": "Containers",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": ["DevOps"]
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "name": "Troubleshooting",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
@@ -123,7 +123,7 @@
     },
     {
       "name": "Object Oriented Programming",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
     {

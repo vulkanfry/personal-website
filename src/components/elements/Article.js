@@ -19,14 +19,25 @@ function Article(props) {
         </a>
       </div>
       <div className="card-content">
-        <div className="tags has-addons">
-          <span className="tag is-link">GitHub</span><span className="tag"><span className="icon has-text-success"><i className="fab fa-github"></i></span></span>
+        <div id="meta" className="field is-grouped is-grouped-multiline">
+          <div className="control">
+            <div className="tags has-addons">
+              <span className="tag is-link">GitHub</span><span className="tag"><span className="icon has-text-success"><i className="fab fa-github"></i></span></span>
+            </div>
+          </div>
+          <div className="control">
+            {props.license ? <div className="tags has-addons">
+              <span className="tag is-link">{(props.license || {}).name}</span><span className="tag"><span className="icon has-text-success"><i className="fas fa-balance-scale"></i></span></span>
+            </div>
+              : null
+            }
+          </div>
+          <div className="control">
+            <div className="tags has-addons">
+              <span className="tag is-link">Language</span><span className="tag"><span className="icon has-text-success">{props.language}</span></span>
+            </div>
+          </div>
         </div>
-        {props.license ? <div className="tags has-addons">
-          <span className="tag is-link">{(props.license || {}).name}</span><span className="tag"><span className="icon has-text-success"><i className="fab fa-mit"></i></span></span>
-        </div>
-          : null
-        }
         <div className="content">
           <p>{props.extract}</p>
         </div>

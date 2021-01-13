@@ -7,6 +7,14 @@ class OSS extends Component {
     this.state = { articles: [] };
   }
 
+  langToSymbol = (lang) => {
+    return {
+      JavaScript: 'JS',
+      Ruby: 'Ruby',
+      Java: 'Java'
+    }[lang] || lang
+  }
+
   componentDidMount() {
     const devTo = "https://api.github.com/users/ByJIKaHkaz/repos";
 
@@ -25,6 +33,7 @@ class OSS extends Component {
                 title={element.full_name}
                 url={element.html_url}
                 license={element.license}
+                language={this.langToSymbol(element.language)}
                 extract={element.description}
               />
             </div>
