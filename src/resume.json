@@ -16,6 +16,12 @@
         "network": "HABR Career",
         "username": "byjikah",
         "url": "https://career.habr.com/byjikah",
+        "x_icon":"fab fa-2x fa-telegram"
+      },
+      {
+        "network": "Telegram",
+        "username": "freevulka",
+        "url": "https://t.me/freevulka",
         "x_icon":"fab fa-2x fa-dev"
       },
       {
