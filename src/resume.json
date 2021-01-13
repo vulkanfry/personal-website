@@ -13,16 +13,22 @@
     },
     "profiles": [
       {
+        "network": "Email",
+        "username": "byjikah",
+        "url": "mailto:vulkan.u4u1@gmail.com",
+        "x_icon":"fas fa-2x fa-envelope"
+      },
+      {
         "network": "HABR Career",
         "username": "byjikah",
         "url": "https://career.habr.com/byjikah",
-        "x_icon":"fab fa-2x fa-telegram"
+        "x_icon":"fas fa-2x fa-beer"
       },
       {
         "network": "Telegram",
         "username": "freevulka",
         "url": "https://t.me/freevulka",
-        "x_icon":"fab fa-2x fa-dev"
+        "x_icon":"fab fa-2x fa-telegram"
       },
       {
         "network": "LinkedIn",
