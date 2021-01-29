@@ -24,7 +24,7 @@ class OSS extends Component {
       })
       .then(data => {
         let articles = [];
-        data = data.slice(0, 4);
+        data = _.sortBy(data, [function(o) { return o.created_at; }]).slice(0, 4);
         data.forEach((element, index) => {
           articles.push(
             <div className="column" key={index}>
