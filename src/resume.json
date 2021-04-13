@@ -46,6 +46,15 @@
   },
   "work": [
     {
+      "company": "Ezil.me",
+      "position": "Fullstack Developer",
+      "website": "ezil.me",
+      "startDate": "2021-02-08",
+      "endDate": "",
+      "summary": "Creating custom applications.",
+      "highlights": []
+    },
+    {
       "company": "Freelance",
       "position": "Fullstack Developer",
       "website": "",
