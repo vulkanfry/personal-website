@@ -51,7 +51,7 @@
       "website": "https://ezil.me",
       "startDate": "2021-02-08",
       "endDate": "",
-      "summary": "Creating custom applications.",
+      "summary": "Telegram and slack bots. SPA for comparing the profitability of pools",
       "highlights": []
     },
     {
@@ -158,6 +158,21 @@
     },
     {
       "name": "Design Patterns",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "Rails",
+      "level": "Intermediate",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "React",
+      "level": "Advanced",
+      "keywords": ["Software Developer"]
+    },
+    {
+      "name": "React Native",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     },
