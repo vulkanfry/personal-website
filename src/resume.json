@@ -5,7 +5,7 @@
     "picture": "images/vulkanfry.jpg",
     "x_pictureFallback": "images/vulkanfry.png",
     "x_title": "Hey There! Glad you're here",
-    "summary": "My path in IT takes 3 years, excluding higher education. I am currently working as a developer on React.js and Ruby on Rails. I am interested in service management, all kinds of automation, development of front-end, back-end and mobile applications",
+    "summary": "My path in IT takes 4 years, excluding higher education. I am currently working as a developer on React.js and Ruby on Rails. I am interested in service management, all kinds of automation, development of front-end, back-end and mobile applications",
     "location": {
       "country": "Kazakhstan",
       "countryCode": "KZ",
@@ -51,7 +51,7 @@
       "website": "https://ezil.me",
       "startDate": "2021-02-08",
       "endDate": "",
-      "summary": "Telegram and slack bots. SPA for comparing the profitability of pools",
+      "summary": "Telegram and slack bots. SPA for comparing the profitability of pools. Core frontend etc",
       "highlights": []
     },
     {
@@ -117,28 +117,28 @@
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "AWS",
       "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
       "name": "Continuous Integration",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": ["DevOps"]
     },
     {
       "name": "Scripting",
-      "level": "Basic",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Containers",
       "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
+      "name": "Containers",
+      "level": "Advanced",
+      "keywords": ["DevOps"]
+    },
+    {
       "name": "Cloud",
-      "level": "Basic",
+      "level": "Intermediate",
       "keywords": ["DevOps"]
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "name": "Rails",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": ["Software Developer"]
     },
     {
@@ -192,17 +192,7 @@
       "keywords": ["Software Developer"]
     },
     {
-      "name": "MySQL",
-      "level": "Basic",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "PostgreSQL",
+      "name": "SQL (psql, mongo)",
       "level": "Intermediate",
       "keywords": ["Software Developer"]
     }
